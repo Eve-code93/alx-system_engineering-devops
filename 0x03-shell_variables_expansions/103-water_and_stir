@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "obase=20;ibase=5;$WATER+ibase=13;$STIR" | bc 2>/dev/null | tr -d "\\\n"
